@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* section bir */
+
+.header-parent{
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color: #222222;
+text-decoration: none;
+display: flex;
+font-family: 'Open Sans';
+}
+
+a{
+text-decoration: none;
+margin: 0 auto;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color: #DE2E54;
+}
+
+.header-parent .header-content a:hover{
+/* Dorilar */
+margin: 0 auto;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+color: #222222;
+}
+
+button{
+    /* Qabulga yozilish */
+width: 141px;
+height: 23px;
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 22px */
+color: #DE2E54;
+
+
+/* button */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+margin: 0 auto;
+width: 189px;
+height: 47px;
+background: #FFFFFF;
+border: 2px solid #DE2E54;
+border-radius: 8px;
+/* Inside auto layout */
+}
+
+
+
+
+
+
+
+
+/* section ikki */
+
+
+#bir{
+    background: url('img/image\ 4\ \(1\).svg') no-repeat;
+    background-size: cover;
+    padding-left: 250px;
+    width: 1200px;
+    height: 535px;
+    padding-top: 50px;
+}
+
+.btn-ikki{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 189px;
+height: 47px;
+background: rgba(222, 46, 84, 0.8);
+border-radius: 8px;
+}
+
+.title{
+width: 500px;
+/* Big heading */
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+color: #FFFFFF;
+margin-bottom: 50px;
+}
+
+.btn-uch{
+    background-color: #DE2E54;
+    color: white;
+    /* Qabulga yozilish */
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 150%;
+}
+
+
+.section-parent{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+
+/* section uch */
+
+
+
+
+.somsa{
+/* Big heading */
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+color: #000000;
+text-align: center;
+margin-top: 65px;
+}
+
+.title-ikki{
+    /* Hijoma */
+/* Smaller heading */
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+color: #222222;
+margin-bottom: 25px;
+}
+
+.text{
+    /* Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir). */
+width: 600px;
+height: 96px;
+/* Body text */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #444444;
+}
+
+.xonim{
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mastava{
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+/* section uch */
+
+.title-uch{
+    /* Contact me */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+color: #000000;
+background-color: #0EB4C1;
+padding-top: 60px;
+}
+
+.suv{
+    background-color: #0EB4C1;
+    padding-top: 65px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+input{
+    width: 450px;
+    height: 30px;
+    margin-top: 15px;
+    align-items: center;
+
+    /* Jonathan */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+color: #3D3B48;
+
+border-radius: 3px;
+border: 1px solid grey;
+}
+
+button{
+background: #38CC8B;
+box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+border-radius: 5px;
+border: none;
+width: 450px;
+margin-top: 15px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 26px;
+/* identical to box height, or 173% */
+color: #FFFFFF;
+}
+
+.ota{
+    background-color: white;
+    padding: 30px 40px;
+}
+
+
+/* section tor */
+
+.header-parent-ikki{
+    display: flex;
+    background-color: #222222;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.header-img-ikki{
+    margin-left: 170px;
+}
+
+.osh{
+    display: flex;
+    gap: 30px;
+    margin-right: 170px;
+}
